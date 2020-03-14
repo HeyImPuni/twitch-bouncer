@@ -1,0 +1,28 @@
+{
+  "name": "twitch-bouncer",
+  "version": "1.0.0",
+  "description": "just a twitch and discord bot to join twitch channels. shitcode.",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "twitch",
+    "discord",
+    "bot",
+    "node"
+  ],
+  "author": "HeyImPuni",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "discord.js": "^12.0.2",
+    "dotenv": "^8.2.0",
+    "nedb": "^1.8.0",
+    "tmi.js": "^1.5.0"
+  }
+}
